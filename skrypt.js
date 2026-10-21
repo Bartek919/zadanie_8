@@ -239,5 +239,50 @@ for (var i = 0; i < A.length; i++) {
 }
 
 document.write("<br>");
+document.write("<h1>ZADANIE 5 - FIBONACCI</h1>");
+ 
+var fib = [0, 1];
+ 
+for (var i = 2; i < 16; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+}
+ 
+document.write(fib.join(", ") + "<br>");
+ 
+ 
+document.write("<h1>ZADANIE 6 - POTĘGI LICZBY 2</h1>");
+ 
+var potegi = [];
+potegi[0] = 1;
+ 
+for (var i = 1; i < 10; i++) {
+    potegi[i] = potegi[i - 1] * 2;
+}
+ 
+document.write(potegi.join(", ") + "<br>");
+ 
+ 
+document.write("<h1>ZADANIE 7 - WIELOKROTNOŚCI 3</h1>");
+ 
+var trojki = [];
+ 
+for (var i = 0; i < 100; i++) {
+    trojki[i] = (i + 1) * 3;
+}
+ 
+document.write(trojki.join(", ") + "<br>");
+ 
+ 
+document.write("<h1>ZADANIE 8 - POTĘGI LICZBY 2</h1>");
+ 
+var podwojenia = [];
+podwojenia[0] = 2;
+ 
+for (var i = 1; i < 10; i++) {
+    podwojenia[i] = podwojenia[i - 1] * 2;
+}
+ 
+document.write(podwojenia.join(", ") + "<br>");
+
 
 
